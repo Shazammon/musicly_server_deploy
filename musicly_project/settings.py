@@ -30,7 +30,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['web-production-dc8a.up.railway.app']
+ALLOWED_HOSTS = ['musicly-backend.up.railway.app']
 
 
 # Application definition
