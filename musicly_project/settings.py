@@ -187,8 +187,14 @@ SIMPLE_JWT = {
 }
 
 STATIC_ROOT = BASE_DIR / "staticfiles"
+STATIC_URL = "static/"
+STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
+DISABLE_COLLECTSTATIC = 0
 
 import dj_database_url
 
