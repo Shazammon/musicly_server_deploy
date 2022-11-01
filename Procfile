@@ -1,1 +1,1 @@
-web: python3 manage.py migrate && gunicorn main_app.wsgi
+web: python3 manage.py migrate && gunicorn musicly_project.wsgi
