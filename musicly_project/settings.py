@@ -30,7 +30,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['https//:musicly-backend.up.railway.app']
+ALLOWED_HOSTS = ['https://musicly-backend.up.railway.app']
 # ALLOWED_HOSTS = []
 
 
