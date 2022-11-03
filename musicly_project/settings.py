@@ -30,7 +30,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['musicly-backend.up.railway.app']
+ALLOWED_HOSTS = ['https//:musicly-backend.up.railway.app']
 # ALLOWED_HOSTS = []
 
 
@@ -143,7 +143,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 CORS_ORIGIN_WHITELIST = [
-     'http://localhost:3000', 'https://musiclyteachers.netlify.app, https://musicly-swart.vercel.app/, https://musicly-client.vercel.app'
+     'http://localhost:3000', 'https://musiclyteachers.netlify.app, https://musicly-swart.vercel.app/, https://musicly-swart.vercel.app, https://musicly-client.vercel.app, https://musicly-client.vercel.app/'
 ]
 
 REST_FRAMEWORK = {
