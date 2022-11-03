@@ -143,8 +143,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 CORS_ORIGIN_WHITELIST = [
-     'http://localhost:3000', 'https://musiclyteachers.netlify.app, https://musicly-swart.vercel.app/, https://musicly-swart.vercel.app, https://musicly-client.vercel.app, https://musicly-client.vercel.app/'
-]
+     'http://localhost:3000', 'https://musicly-client.vercel.app']
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
